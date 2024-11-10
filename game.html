@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./game.css" />
+  </head>
+  <body>
+    <script type="module" src="./game.js"></script>
+    <div id="divContainer">
+      <div id="player_div1">
+        <h1>player 1</h1>
+        <h1 id="total1">0</h1>
+        <div class="currentDiv">
+          <h1 class="currentScore">
+            Current Score <br />
+            <span id="currentscore-1"></span>
+          </h1>
+        </div>
+      </div>
+      <h1 id="winEl"></h1>
+      <div id="imgDice">
+        <button id="resetbtn" type="reset">New Game</button>
+        <button id="rollBtn" type="submit">roll</button>
+        <button id="holdBtn" type="submit">Hold</button>
+      </div>
+      <div id="player_div2">
+        <h1>player 2</h1>
+        <!-- <div id="score_div"> -->
+        <h1 id="total2">0</h1>
+        <!-- </div> -->
+        <div class="currentDiv">
+          <h1 class="currentScore">
+            Current Score <br />
+            <span id="currentscore-2"></span>
+          </h1>
+        </div>
+        <!-- <h1 id="currentscore-2"></h1> -->
+      </div>
+    </div>
+  </body>
+</html>
